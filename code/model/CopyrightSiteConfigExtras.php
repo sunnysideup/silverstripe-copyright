@@ -9,7 +9,7 @@
 class CopyrightSiteConfigExtras extends DataExtension
 {
     private static $db = [
-        'CopyrightNotice' => 'Varchar(100)'
+        'CopyrightNotice' => 'HTMLVarchar'
     ];
 
     public function updateCMSFields(FieldList $fields)
@@ -17,7 +17,7 @@ class CopyrightSiteConfigExtras extends DataExtension
         $tabTitle = _t('CopyrightSiteConfigExtras.PAGE_ELEMENTS', 'Page Elements');
         $fields->addFieldToTab(
             'Root.'.$tabTitle,
-            $editor = HTMLEditorField::createField(
+            $editor = HTMLEditorField::create(
                 'CopyrightNotice',
                 _t('CopyrightSiteConfigExtras.COPYRIGHT', 'COPYRIGHT'))
         );
