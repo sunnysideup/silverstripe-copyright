@@ -1,7 +1,7 @@
 {
     "name": "sunnysideup/copyright",
     "type": "silverstripe-module",
-    "description": "add a copy right notice to your silverstripe website / application",
+    "description": "add a copyright notice to your silverstripe website / application",
     "keywords": [
         "Silverstripe-CMS",
         "CMS",
