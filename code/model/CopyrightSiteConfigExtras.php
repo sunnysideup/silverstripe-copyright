@@ -9,7 +9,7 @@
 class CopyrightSiteConfigExtras extends DataExtension
 {
     private static $db = [
-        'TextField' => 'Varchar(100)'
+        'CopyrightNotice' => 'Varchar(100)'
     ];
 
     public function updateCMSFields(FieldList $fields)
