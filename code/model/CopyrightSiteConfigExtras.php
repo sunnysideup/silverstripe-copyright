@@ -19,7 +19,8 @@ class CopyrightSiteConfigExtras extends DataExtension
             'Root.'.$tabTitle,
             $editor = HTMLEditorField::create(
                 'CopyrightNotice',
-                _t('CopyrightSiteConfigExtras.COPYRIGHT', 'COPYRIGHT'))
+                _t('CopyrightSiteConfigExtras.COPYRIGHT', 'COPYRIGHT')
+            )
         );
         $editor->setRows(4);
 
