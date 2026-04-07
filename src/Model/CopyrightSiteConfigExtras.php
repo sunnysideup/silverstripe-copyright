@@ -2,9 +2,9 @@
 
 namespace Sunnysideup\Copyright\Model;
 
-use DataExtension;
-use FieldList;
-use HTMLEditorField;
+use SilverStripe\ORM\DataExtension;
+use SilverStripe\Forms\FieldList;
+use SilverStripe\Forms\HTMLEditor\HTMLEditorField;
 
 /**
  *@author nicolaas [at] sunnysideup.co.nz
