@@ -1,5 +1,5 @@
 name: Copyright
 ---
-SiteConfig:
+SilverStripe\SiteConfig\SiteConfig:
   extensions:
     - CopyrightSiteConfigExtras
