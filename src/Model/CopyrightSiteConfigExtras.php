@@ -1,5 +1,12 @@
 <?php
 
+namespace Sunnysideup\Copyright\Model;
+
+use DataExtension;
+use FieldList;
+use HTMLEditorField;
+
+
 /**
  *@author nicolaas [at] sunnysideup.co.nz
  *
