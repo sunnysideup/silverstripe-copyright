@@ -35,3 +35,4 @@ class CopyrightSiteConfigExtras extends DataExtension
         return $fields;
     }
 }
+
