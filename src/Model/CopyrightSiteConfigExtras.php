@@ -6,7 +6,6 @@ use DataExtension;
 use FieldList;
 use HTMLEditorField;
 
-
 /**
  *@author nicolaas [at] sunnysideup.co.nz
  *
@@ -24,7 +23,7 @@ class CopyrightSiteConfigExtras extends DataExtension
     {
         $tabTitle = _t('CopyrightSiteConfigExtras.PAGE_ELEMENTS', 'Page Elements');
         $fields->addFieldToTab(
-            'Root.'.$tabTitle,
+            'Root.' . $tabTitle,
             $editor = HTMLEditorField::create(
                 'CopyrightNotice',
                 _t('CopyrightSiteConfigExtras.COPYRIGHT', 'COPYRIGHT')
@@ -42,4 +41,3 @@ class CopyrightSiteConfigExtras extends DataExtension
         return $fields;
     }
 }
-
