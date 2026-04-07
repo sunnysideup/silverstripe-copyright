@@ -3,3 +3,5 @@ name: Copyright
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
     - CopyrightSiteConfigExtras
+---
+{  }
