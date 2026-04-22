@@ -1,6 +1,6 @@
 {
     "name": "sunnysideup/copyright",
-    "type": "silverstripe-module",
+    "type": "silverstripe-vendormodule",
     "description": "add a copyright notice to your silverstripe website / application",
     "keywords": [
         "Silverstripe-CMS",
@@ -18,11 +18,12 @@
         }
     ],
     "require": {
-        "silverstripe/siteconfig": "~3.1",
-        "silverstripe/framework": "~3.6",
-        "silverstripe/cms": "~3.6"
+        "silverstripe/recipe-cms": "*"
     },
-    "extra": {
-        "installer-name": "copyright"
+    "extra": [],
+    "autoload": {
+        "psr-4": {
+            "Sunnysideup\\Copyright\\": "src/"
+        }
     }
 }
