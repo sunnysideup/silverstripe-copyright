@@ -2,7 +2,7 @@
 
 namespace Sunnysideup\Copyright\Model;
 
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\HTMLEditor\HTMLEditorField;
 
@@ -12,7 +12,7 @@ use SilverStripe\Forms\HTMLEditor\HTMLEditorField;
  *
  **/
 
-class CopyrightSiteConfigExtras extends DataExtension
+class CopyrightSiteConfigExtras extends Extension
 {
     private static $db = [
         'CopyrightNotice' => 'HTMLVarchar',

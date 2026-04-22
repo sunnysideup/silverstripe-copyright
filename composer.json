@@ -1,29 +1,29 @@
 {
-    "name": "sunnysideup/copyright",
-    "type": "silverstripe-vendormodule",
-    "description": "add a copyright notice to your silverstripe website / application",
-    "keywords": [
-        "Silverstripe-CMS",
-        "CMS",
-        "Silverstripe",
-        "siteconfig",
-        "copyright"
-    ],
-    "license": "BSD-3-Clause",
-    "authors": [
-        {
-            "name": "Nicolaas Francken",
-            "email": "modules@sunnysideup.co.nz",
-            "role": "lead developer"
-        }
-    ],
-    "require": {
-        "silverstripe/recipe-cms": "*"
-    },
-    "extra": [],
-    "autoload": {
-        "psr-4": {
-            "Sunnysideup\\Copyright\\": "src/"
-        }
+  "name": "sunnysideup/copyright",
+  "type": "silverstripe-vendormodule",
+  "description": "add a copyright notice to your silverstripe website / application",
+  "keywords": [
+    "Silverstripe-CMS",
+    "CMS",
+    "Silverstripe",
+    "siteconfig",
+    "copyright"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Nicolaas Francken",
+      "email": "modules@sunnysideup.co.nz",
+      "role": "lead developer"
     }
+  ],
+  "require": {
+    "silverstripe/recipe-cms": "^5.0"
+  },
+  "extra": [],
+  "autoload": {
+    "psr-4": {
+      "Sunnysideup\\Copyright\\": "src/"
+    }
+  }
 }
